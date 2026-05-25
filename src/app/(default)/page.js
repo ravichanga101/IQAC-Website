@@ -1,11 +1,8 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import SiteFrame from "@/features/site-shell/SiteFrame";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <div role="main" className="main">
+    <SiteFrame>
         <div className="slider-container rev_slider_wrapper" style={{ height: "100vh" }}>
           <div
             id="revolutionSlider"
@@ -511,8 +508,6 @@ export default function Home() {
           </div>
         </div>
         <hr />
-      </div>
-      <Footer />
-    </>
+    </SiteFrame>
   );
 }

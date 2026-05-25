@@ -1,14 +1,11 @@
 "use client";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import SiteFrame from "@/features/site-shell/SiteFrame";
 
 export default function Feedback() {
     return (
-        <>
-            <Header />
-            <div role="main" className="main">
-                <div className="container py-3">
+        <SiteFrame>
+            <div className="container py-3">
                     <div className="row justify-content-center">
                         <div
                             className="col text-center appear-animation"
@@ -1034,8 +1031,6 @@ export default function Feedback() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <Footer />
-        </>
+        </SiteFrame>
     );
 }

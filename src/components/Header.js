@@ -125,9 +125,9 @@ export default function Header() {
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <a className="dropdown-item dropdown-toggle" href="inst_distinct.html#1">
+                                                        <Link className={`dropdown-item dropdown-toggle ${isActive('/institutional-distinctiveness')}`} href="/institutional-distinctiveness">
                                                             Institutional Distinctiveness
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <Link className={`dropdown-item dropdown-toggle ${isActive('/feedback')}`} href="/feedback">
@@ -142,7 +142,7 @@ export default function Header() {
                                                             <li>
                                                                 <a className="dropdown-item" href="https://charusat.ac.in/files/studentCorner/Student-Satisfaction-Survey-SSS%20Poster.pdf">SSS Poster</a>
                                                             </li>
-                                                            <li><Link className="dropdown-item" href="/sss-analysis">SSS Analysis</Link></li>
+                                                            <li><Link className={`dropdown-item ${isActive('/sss-analysis')}`} href="/sss-analysis">SSS Analysis</Link></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
