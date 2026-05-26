@@ -14,22 +14,22 @@ export default function Header() {
             <div className="header-body">
                 <div className="header-container container d-flex h-100">
                     <div className="header-column flex-row flex-lg-column justify-content-center h-100">
-                        <div className="header-row flex-row justify-content-start justify-content-lg-center py-lg-5">
+                        <div className="header-row flex-row justify-content-start justify-content-lg-center py-2">
                             <div className="header-logo">
                                 <Link href="/" aria-label="Home">
                                     <Image
                                         src="/img/iqac/IQAC_logo.png"
                                         alt="IQAC"
-                                        width={220}
+                                        width={200}
                                         height={80}
                                         priority
-                                        sizes="(max-width: 768px) 140px, 220px"
-                                        style={{ width: "100%", height: "auto", maxWidth: "220px" }}
+                                        sizes="(max-width: 768px) 140px, 200px"
+                                        style={{ width: "clamp(120px, 38vw, 200px)", height: "auto" }}
                                     />
                                 </Link>
                             </div>
                         </div>
-                        <div className="header-row header-row-side-header flex-row h-100 pb-lg-5">
+                        <div className="header-row header-row-side-header flex-row h-100 pb-lg-4">
                             <div className="side-header-scrollable scrollable colored-slider" data-plugin-scrollable>
                                 <div className="scrollable-content">
                                     <div className="header-nav header-nav-links header-nav-links-side-header header-nav-links-vertical header-nav-links-vertical-expand header-nav-click-to-open align-self-start">
@@ -172,16 +172,16 @@ export default function Header() {
                                 </div>
                             </div>
                         </div>
-                        <div className="header-row justify-content-end pb-lg-3">
+                        <div className="header-row justify-content-end align-items-center flex-wrap gap-2 pt-2">
                             <Image
                                 src="/img/iqac/CHARUSAT_RGTD_LOGO.webp"
                                 alt="CHARUSAT"
                                 width={320}
                                 height={160}
                                 sizes="(max-width: 992px) 50vw, 320px"
-                                style={{ width: "80%", height: "auto" }}
+                                style={{ width: "clamp(120px, 46vw, 220px)", height: "auto" }}
                             />
-                            <p className="d-none d-lg-block text-1 pt-3">© 2023 CHARUSAT</p>
+                            <p className="d-none d-lg-block text-1 pt-3">&copy; &nbsp;{new Date().getFullYear()} CHARUSAT</p>
                             <button className="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
                                 <i className="fas fa-bars"></i>
                             </button>
