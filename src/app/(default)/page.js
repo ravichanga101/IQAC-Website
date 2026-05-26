@@ -19,7 +19,7 @@ export default function Home() {
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgrepeat="no-repeat"
-                  className="img-fluid rev-slidebg"
+                  className="rev-slidebg"
                 />
 
                 <div
@@ -41,7 +41,7 @@ export default function Home() {
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgrepeat="no-repeat"
-                  className="rev-slidebg img-fluid"
+                  className="rev-slidebg"
                 />
               </li>
             </ul>
