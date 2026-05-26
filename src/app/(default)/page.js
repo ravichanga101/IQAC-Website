@@ -50,73 +50,139 @@ export default function Home() {
 
         <br />
         <div className="row justify-content-center">
-          <div
-            className="col-md-12 col-lg-10 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible"
-            data-appear-animation="fadeInUpShorter"
-            data-appear-animation-delay="600"
-            style={{ animationDelay: "600ms" }}
-          >
-            <div className="card text-left">
+          <div className="col-md-12 col-lg-10 mb-5 mb-lg-0 ">
+            
+          {/* Vision & Mission */}
+          <div className="card text-left shadow-sm">
               <div className="card-header bg-color-grey text-4 font-weight-extra-bold">
-                <h4>Functions</h4>
+                <h4 className="mb-0">Vision &amp; Mission</h4>
               </div>
               <div className="card-body">
-                <p className="card-text text-4">
-                  Some of the functions expected of the IQAC are:
+                <div className="card-text text-4">
+                  <h4>Vision:</h4><p> To institutionalize a culture of quality and excellence that promotes continuous
+improvement and holistic development across the University ecosystem.</p>
+                </div>
+                <div className="card-text text-4">
+                  <h4>Mission:</h4> <p>The mission of the IQAC is to establish a resilient and sustainable foundation for quality
+assurance across academic, research, governance, and extension functions of the University.
+In pursuit of this mission, the IQAC is committed to:</p>
+<ol className="list list-ordened list-primary">
+                  <li>
+Institutionalizing a comprehensive quality assurance framework by
+implementing structured systems and protocols that consistently enhance excellence
+in academic, research, governance, and extension activities.
+</li>
+<li>
+Facilitating accreditation readiness by continual quality benchmarking and aligning
+with national policies, regulatory requirements, and global quality benchmarks.
+</li>
+<li>
+Strengthening stakeholder engagement by systematically integrating 360°feedback
+involving students, faculty, alumni, industry, and the wider society to enable informed
+and participative decision-making.
+</li>
+<li>
+Ensuring data-driven governance through systematic collection, validation, analysis,
+and reporting of institutional performance indicators.
+</li>
+<li>
+Promoting innovation, best practices, and sustainability, thereby supporting
+holistic institutional development and enhancing the University’s societal relevance.
+</li>
+</ol>
+Through these commitments, the IQAC develops a dynamic and sustainable quality
+framework that not only meets contemporary higher education standards but also
+proactively responds to emerging trends and future challenges.
+                </div>
+
+              </div>
+            </div>
+
+          
+          <br/>
+          {/* Functions section */}
+            <div className="card text-left">
+              <div className="card-header bg-color-grey text-4 font-weight-extra-bold">
+                <h4 className="mb-0">Functions</h4>
+              </div>
+              <div className="card-body">
+                <p className="card-text text-4 mb-4">
+                  In pursuit of its vision and mission, the IQAC undertakes the following functions to strengthen quality assurance and continuous improvement across the University:
                 </p>
-                <ol className="list list-ordened list-primary text-4">
-                  <li>
-                    {" "}
-                    Development and application of quality benchmarks/parameters for
-                    various academic and administrative activities of the institution;
-                  </li>
-                  <li>
-                    {" "}
-                    Facilitating the creation of a learner-centric environment
-                    conducive to quality education and faculty maturation to adopt
-                    the required knowledge and technology for participatory teaching
-                    and learning process;
-                  </li>
-                  <li>
-                    {" "}
-                    Arrangement for feedback response from students, parents and
-                    other stakeholders on quality-related institutional processes;
-                  </li>
-                  <li>
-                    {" "}
-                    Dissemination of information on various quality parameters of
-                    higher education;
-                  </li>
-                  <li>
-                    {" "}
-                    Organization of inter and intra institutional workshops,
-                    seminars on quality related themes and promotion of quality
-                    circles;
-                  </li>
-                  <li>
-                    {" "}
-                    Documentation of the various programmes/activities leading to
-                    quality improvement;
-                  </li>
-                  <li>
-                    {" "}
-                    Acting as a nodal agency of the Institution for coordinating
-                    quality-related activities, including adoption and dissemination
-                    of best practices;
-                  </li>
-                  <li>
-                    {" "}
-                    Development and maintenance of institutional database through
-                    MIS for the purpose of maintaining /enhancing the institutional
-                    quality;
-                  </li>
-                  <li> Development of Quality Culture in the institution;</li>
-                  <li>
-                    {" "}
-                    Preparation of the Annual Quality Assurance Report (AQAR) as per
-                    guidelines and parameters of NAAC, to be submitted to NAAC.
-                  </li>
-                </ol>
+                
+                <div className="text-4">
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">1. Quality Planning and Policy Support</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Assist in the formulation, review, and implementation of quality-related policies, frameworks, and guidelines.</li>
+                    <li className="mb-2">Support strategic and operational planning aligned with the University's vision, mission, and quality benchmarks.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">2. Academic Quality Enhancement</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Facilitate a dynamic learning environment through periodic review and improvement of curricula, teaching–learning methodologies, assessment practices, and learner support systems.</li>
+                    <li className="mb-2">Promote interdisciplinary learning and the adoption of innovative and learner-centric pedagogical approaches.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">3. Research, Innovation, and Extension Support</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Support the development of a research-conducive ecosystem by promoting quality research practices, ethical standards, and collaborative initiatives.</li>
+                    <li className="mb-2">Facilitate innovation, entrepreneurship, and meaningful engagement with industry and society.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">4. Monitoring, Review, and Evaluation</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Encourage self-assessment, accountability, autonomy, and innovation in academic and administrative processes.</li>
+                    <li className="mb-2">Develop and operationalize mechanisms for periodic monitoring, review, and evaluation of institutional performance.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">5. Stakeholder Feedback and Engagement</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Design, implement, and manage structured feedback systems for key stakeholders.</li>
+                    <li className="mb-2">Analyse feedback data and facilitate appropriate follow-up actions to drive continuous improvement.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">6. Data Management and Documentation</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Facilitate systematic collection, validation, analysis, and reporting of institutional data for planning and performance evaluation.</li>
+                    <li className="mb-2">Promote standardized documentation, and record-keeping practices.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">7. Capacity Building and Rewarding Excellence</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Organize orientation programmes, workshops, and training sessions to enhance the quality-related competencies of faculty, staff, and students.</li>
+                    <li className="mb-2">Devise mechanisms for empowering and acknowledging achievers with diverse competencies across identified key performance areas.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">8. Promotion of Best Practices and Sustainability</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Identify, document, and disseminate institutional best practices.</li>
+                    <li className="mb-2">Facilitate environmentally responsible, socially inclusive, and sustainable institutional initiatives.</li>
+                  </ul>
+
+                  <p className="mb-3">
+                    <strong className="font-weight-bold">9. Coordination and Communication</strong>
+                  </p>
+                  <ul className="list ms-4 mb-4 pl-4">
+                    <li className="mb-2">Act as a nodal coordinating unit among constituent institutes, centres, committees, and cells for quality enhancement initiatives.</li>
+                    <li className="mb-2">Facilitate effective internal communication related to quality standards, processes, and improvement initiatives.</li>
+                  </ul>
+                </div>
 
               </div>
             </div>
@@ -126,14 +192,12 @@ export default function Home() {
         <br />
         <div className="row justify-content-center">
           <div
-            className="col-md-12 col-lg-10 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible"
-            data-appear-animation="fadeInUpShorter"
-            data-appear-animation-delay="600"
-            style={{ animationDelay: "600ms" }}
+            className="col-md-12 col-lg-10 mb-5 mb-lg-0"
+            
           >
             <div className="card text-left">
               <div className="card-header bg-color-grey text-4 font-weight-extra-bold">
-                <h4>Benefits</h4>
+                <h4 className="mb-0">Benefits</h4>
               </div>
               <div className="card-body">
                 <p className="card-text text-4">
