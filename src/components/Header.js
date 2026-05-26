@@ -33,25 +33,25 @@ export default function Header() {
                                                         </a>
                                                         <ul className="dropdown-menu">
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2025-26.pdf">2025-26</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2025-26.pdf" target="_blank" rel="noopener noreferrer">2025-26</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calender-2024-25.pdf">2024-25</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calender-2024-25.pdf" target="_blank" rel="noopener noreferrer">2024-25</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2023-24.pdf">2023-24</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2023-24.pdf" target="_blank" rel="noopener noreferrer">2023-24</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calender-2022-23.pdf">2022-23</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calender-2022-23.pdf" target="_blank" rel="noopener noreferrer">2022-23</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2021-22.pdf">2021-22</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2021-22.pdf" target="_blank" rel="noopener noreferrer">2021-22</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2020-21.pdf">2020-21</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2020-21.pdf" target="_blank" rel="noopener noreferrer">2020-21</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2019-20.pdf">2019-20</a>
+                                                                <a className="dropdown-item" href="/files/Academic-Calendar-2019-20.pdf" target="_blank" rel="noopener noreferrer">2019-20</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -61,7 +61,7 @@ export default function Header() {
                                                         </a>
                                                         <ul className="dropdown-menu">
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/AAA_Process.pdf">AAA Process</a>
+                                                                <a className="dropdown-item" href="/files/AAA_Process.pdf" target="_blank" rel="noopener noreferrer">AAA Process</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -71,46 +71,52 @@ export default function Header() {
                                                         </a>
                                                         <ul className="dropdown-menu">
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/Draft_MoM_21st-IQAC-Meeting.pdf">Draft 21st IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/Draft_MoM_21st-IQAC-Meeting.pdf" target="_blank" rel="noopener noreferrer">Draft 21st IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/20th-IQAC-Meeting-Minutes.pdf">20th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/20th-IQAC-Meeting-Minutes.pdf" target="_blank" rel="noopener noreferrer">20th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/19th-IQAC-Meeting-Minutes.pdf">19th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/19th-IQAC-Meeting-Minutes.pdf" target="_blank" rel="noopener noreferrer">19th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/18th-IQAC-Meeting-Minutes.pdf">18th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/18th-IQAC-Meeting-Minutes.pdf" target="_blank" rel="noopener noreferrer">18th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/17th-Meeting.pdf">17th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/17th-Meeting.pdf" target="_blank" rel="noopener noreferrer">17th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/16th-Meeting.pdf">16th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/16th-Meeting.pdf" target="_blank" rel="noopener noreferrer">16th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/15th-Meeting.pdf">15th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/15th-Meeting.pdf" target="_blank" rel="noopener noreferrer">15th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/14th-Meeting.pdf">14th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/14th-Meeting.pdf" target="_blank" rel="noopener noreferrer">14th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/13th-Meeting.pdf">13th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/13th-Meeting.pdf" target="_blank" rel="noopener noreferrer">13th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/12th-Meeting.pdf">12th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/12th-Meeting.pdf" target="_blank" rel="noopener noreferrer">12th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/11th-Meeting.pdf">11th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/11th-Meeting.pdf" target="_blank" rel="noopener noreferrer">11th IQAC Meeting Minutes</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/10th-Meeting.pdf">10th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/10th-Meeting.pdf" target="_blank" rel="noopener noreferrer">
+                                                                    10th IQAC Meeting Minutes
+                                                                </a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/9th-Meeting.pdf">9th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/9th-Meeting.pdf" target="_blank" rel="noopener noreferrer">
+                                                                    9th IQAC Meeting Minutes
+                                                                </a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="/files/8th-Meeting.pdf">8th IQAC Meeting Minutes</a>
+                                                                <a className="dropdown-item" href="/files/8th-Meeting.pdf" target="_blank" rel="noopener noreferrer">
+                                                                    8th IQAC Meeting Minutes
+                                                                </a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -125,8 +131,13 @@ export default function Header() {
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <a className="dropdown-item dropdown-toggle" href="inst_distinct.html#1">
+                                                        <Link className={`dropdown-item dropdown-toggle ${isActive('/institutional-distinctiveness')}`} href="/institutional-distinctiveness">
                                                             Institutional Distinctiveness
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <a className="dropdown-item" href="/files/Faculty_PoP.pdf" target="_blank" rel="noopener noreferrer">
+                                                            Professor of Practice
                                                         </a>
                                                     </li>
                                                     <li>
@@ -142,7 +153,7 @@ export default function Header() {
                                                             <li>
                                                                 <a className="dropdown-item" href="https://charusat.ac.in/files/studentCorner/Student-Satisfaction-Survey-SSS%20Poster.pdf">SSS Poster</a>
                                                             </li>
-                                                            <li><Link className="dropdown-item" href="/sss-analysis">SSS Analysis</Link></li>
+                                                            <li><Link className={`dropdown-item ${isActive('/sss-analysis')}`} href="/sss-analysis">SSS Analysis</Link></li>
                                                         </ul>
                                                     </li>
                                                 </ul>

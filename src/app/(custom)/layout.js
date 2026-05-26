@@ -3,6 +3,7 @@ import Script from "next/script";
 import LoadingHandler from "@/components/LoadingHandler";
 import "../globals.css";
 
+
 // Fonts matching inst_distinct.html
 const openSans = Open_Sans({
     subsets: ["latin"],
