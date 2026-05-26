@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
                 {/* Head Libs - loading modernizr early as in original */}
                 <Script src="/vendor/modernizr/modernizr.min.js" strategy="beforeInteractive" />
             </head>
-            <body className="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+            <body suppressHydrationWarning className="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
                 <LoadingHandler />
                 <div className="loading-overlay">
                     <div className="bounce-loader">
