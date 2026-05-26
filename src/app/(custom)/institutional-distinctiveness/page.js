@@ -24,7 +24,7 @@ export default function InstitutionalDistinctiveness() {
                                             alt="IQAC"
                                             width="82"
                                             height="40"
-                                            src="/img/iqac/IQAC Logo-min.jpg"
+                                            src="/img/iqac/IQAC_logo.png"
                                             className="img-fluid"
                                         />
                                     </Link>
