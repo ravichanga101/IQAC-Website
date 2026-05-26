@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Header() {
     const pathname = usePathname();
@@ -15,8 +16,16 @@ export default function Header() {
                     <div className="header-column flex-row flex-lg-column justify-content-center h-100">
                         <div className="header-row flex-row justify-content-start justify-content-lg-center py-lg-5">
                             <div className="header-logo">
-                                <Link href="/">
-                                    <img alt="iqac" width="100%" height="50%" src="/img/iqac/IQAC Logo-min.jpg" />
+                                <Link href="/" aria-label="Home">
+                                    <Image
+                                        src="/img/iqac/IQAC_logo.png"
+                                        alt="IQAC"
+                                        width={220}
+                                        height={80}
+                                        priority
+                                        sizes="(max-width: 768px) 140px, 220px"
+                                        style={{ width: "100%", height: "auto", maxWidth: "220px" }}
+                                    />
                                 </Link>
                             </div>
                         </div>
@@ -164,7 +173,14 @@ export default function Header() {
                             </div>
                         </div>
                         <div className="header-row justify-content-end pb-lg-3">
-                            <img alt="CHARUSAT" width="80%" height="40%" src="/img/iqac/CHARUSAT_RGTD_LOGO.webp" />
+                            <Image
+                                src="/img/iqac/CHARUSAT_RGTD_LOGO.webp"
+                                alt="CHARUSAT"
+                                width={320}
+                                height={160}
+                                sizes="(max-width: 992px) 50vw, 320px"
+                                style={{ width: "80%", height: "auto" }}
+                            />
                             <p className="d-none d-lg-block text-1 pt-3">© 2023 CHARUSAT</p>
                             <button className="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
                                 <i className="fas fa-bars"></i>

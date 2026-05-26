@@ -31,7 +31,7 @@ export const metadata = {
     keywords: "IQAC, CHARUSAT",
     authors: [{ name: "IQAC, CHARUSAT" }],
     icons: {
-        icon: "/img/iqac/IQAC Logo-min.jpg",
+        icon: "/img/iqac/IQAC_logo.png",
         apple: "/img/apple-touch-icon.png",
     },
 };
